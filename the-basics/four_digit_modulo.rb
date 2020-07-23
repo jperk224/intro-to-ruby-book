@@ -23,3 +23,11 @@ four_digit_place_values(10000)
 four_digit_place_values(8765)
 four_digit_place_values(4321)
 four_digit_place_values(7741)
+
+=begin
+The book solution was much more succinct
+thousands = 4936 / 1000
+hundreds = 4936 % 1000 / 100
+tens = 4936 % 100 / 10
+ones = 4936 % 100 % 10
+=end
